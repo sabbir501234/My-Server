@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WhatsApp Dashboard</h1>
+        <nav>
+            <button onclick="showApi()">API Access</button>
+        </nav>
+    </header>
+    <main>
+        <section id="api-section" style="display:none;">
+            <h2>Your API Endpoint:</h2>
+            <code>http://127.0.0.1:3000/api/check-number</code>
+            <p>Use POST request with JSON body {"numbers":["88017xxxxxxx"]}</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
